@@ -7,9 +7,6 @@
   <a href="mailto:mt3925@columbia.edu">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/madhavtibrewal">
-    <img src="https://komarev.com/ghpvc/?username=madhavtibrewal&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
-  </a>
 </p>
 
 <p align="center">
@@ -34,6 +31,11 @@ I care about building things that actually work in production, not demos, not pr
 
 ## What I'm Building Right Now
 
+### ⚡ Disaggregated LLM Inference — Infrastructure Benchmarking
+Benchmarked prefill decode disaggregated inference on commodity GCP hardware using vLLM and LMCache. Achieved **3x improvement in time to first token** under concurrent load. Documented KV cache transfer bottlenecks in heterogeneous GPU setups, including attention backend incompatibilities between NVIDIA L4 and T4.
+
+`vLLM` `LMCache` `ZeroMQ` `GCP` `CUDA`
+
 ### 🤖 [AgentHq](https://github.com/BuildathonAgentHQ/HQ) — AI Orchestration Platform
 A platform that coordinates 6 parallel agents for autonomous code reviews across GitHub repos. I built the safety and intelligence layer, a destructive action interceptor that catches dangerous commands like rm -rf and force pushes across 10+ patterns, a 3 strike escalation system that triggers multi-agent debate when fixes fail repeatedly, budget enforcement to prevent runaway API costs, and a context layer using MCP with tree-sitter fallback so agents always understand the codebase even when external services go down.
 
@@ -43,11 +45,6 @@ A platform that coordinates 6 parallel agents for autonomous code reviews across
 Designed a gated steering vector mechanism with a learned MLP module that controls LLM safety behavior at inference time without modifying base model weights. Outperformed LoRA fine-tuning on Gemma 3 1B by **4% on harmful refusal rate** and **6% on benign accuracy**, while training **3x faster**.
 
 `PyTorch` `Transformers` `LoRA` `Gemma 3 1B`
-
-### ⚡ Disaggregated LLM Inference — Infrastructure Benchmarking
-Benchmarked prefill decode disaggregated inference on commodity GCP hardware using vLLM and LMCache. Achieved **3x improvement in time to first token** under concurrent load. Documented KV cache transfer bottlenecks in heterogeneous GPU setups, including attention backend incompatibilities between NVIDIA L4 and T4.
-
-`vLLM` `LMCache` `ZeroMQ` `GCP` `CUDA`
 
 ### 🎉 SHaas — Real-Time Social Event Platform
 Full stack platform with microservices architecture, real time feeds, and event driven workflows. Split across [Backend](https://github.com/TheFriendRequest/Main-Backend-Service) · [API Gateway](https://github.com/TheFriendRequest/API-Gateway-Service) · [Frontend](https://github.com/TheFriendRequest/frontend-service).
@@ -63,16 +60,6 @@ Real time pose inference on Snapdragon NPU at 30+ FPS with sub second latency, b
 Processes financial transaction data, analyzes trading patterns, and generates AI powered insights.
 
 `Python` `LLMs` `Data Analytics`
-
----
-
-## What I Bring to a Team
-
-What makes my profile different from most CS Master's candidates is the combination underneath. Most ML engineers either come from research with deep model expertise but limited production exposure, or from generic SWE backgrounds with shallow ML knowledge. I sit in the middle, four years of shipping production systems that real users depended on, layered with applied AI work that goes deeper than just calling APIs.
-
-When I build agentic systems I think about guardrails and failure handling before I think about prompts because I've been the engineer paged at 2am when something breaks. When I evaluate models I think about what the metric actually measures because I've spent years making sure dashboards reflect reality. And when I build inference infrastructure I care about the boring parts like KV cache transfer and concurrent load behavior, not just the headline numbers.
-
-That mix of production discipline and applied AI is what I bring to every problem I take on.
 
 ---
 
@@ -107,18 +94,6 @@ That mix of production discipline and applied AI is what I bring to every proble
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=madhavtibrewal&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&card_width=450" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madhavtibrewal&layout=compact&theme=github_dark&hide_border=true&langs_count=10&card_width=450" alt="Top Languages" />
-</p>
 
 ---
 
