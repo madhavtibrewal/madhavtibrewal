@@ -110,19 +110,14 @@ That mix of production discipline and applied AI is what I bring to every proble
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=madhavtibrewal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=madhavtibrewal&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=madhavtibrewal&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&card_width=450" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madhavtibrewal&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=madhavtibrewal&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Trophies"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madhavtibrewal&layout=compact&theme=github_dark&hide_border=true&langs_count=10&card_width=450" alt="Top Languages" />
 </p>
 
 ---
